@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="22.5dp"
+    android:paddingRight="22.5dp"
+    android:paddingTop="20dp">
+
+    <Button
+        android:id="@+id/btn_gesture_signin"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#32A082"
+        android:gravity="center"
+        android:text="设置手势签到"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_one_btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="#32A082"
+        android:gravity="center"
+        android:text="设置一键签到"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>
